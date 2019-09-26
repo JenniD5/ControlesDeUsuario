@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:Control_De_Usuario"
              mc:Ignorable="d" Height="134.85" Width="200">
     <Grid Margin="0,0,20,4.6">
-        <TextBox HorizontalAlignment="Left" Height="45" Margin="25,65,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="140"/>
+        <TextBox x:Name="txtlado" HorizontalAlignment="Left" Height="45" Margin="25,65,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="140"/>
         <TextBlock HorizontalAlignment="Left" Margin="40,30,0,0" TextWrapping="Wrap" Text="Lado" VerticalAlignment="Top" Height="30" Width="90"/>
 
     </Grid>
