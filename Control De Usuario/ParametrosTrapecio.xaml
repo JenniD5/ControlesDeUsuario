@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="Control_De_Usuario.ParametrosTrapecio"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Control_De_Usuario"
+             mc:Ignorable="d" Height="275" Width="220">
+    <Grid Margin="0,0,0,0.2">
+        <Grid.RowDefinitions>
+            
+        </Grid.RowDefinitions>
+        <TextBox x:Name="txtaluta" HorizontalAlignment="Left" Height="50" Margin="15,200,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="75" Grid.RowSpan="2"/>
+        <TextBox x:Name="txtbasemayor" HorizontalAlignment="Left" Height="50" Margin="10,100,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,40,0,0" TextWrapping="Wrap" Text="Base mayor" VerticalAlignment="Top" Height="35" Width="65"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,155,0,0" TextWrapping="Wrap" Text="Altura " VerticalAlignment="Top" Height="35" Width="55"/>
+        <TextBlock HorizontalAlignment="Left" Margin="110,45,0,0" TextWrapping="Wrap" Text="Base menor " VerticalAlignment="Top" Height="35" Width="75"/>
+        <TextBox x:Name="txtbasemenor" HorizontalAlignment="Left" Height="50" Margin="110,100,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="70"/>
+
+    </Grid>
+</UserControl>
